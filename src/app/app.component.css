@@ -1,0 +1,55 @@
+  .col-5,
+  .col-6 {
+      margin: 2vw;
+      background-color: #ffff00;
+  }
+  
+  .card {
+      width: min-content;
+      height: 100%;
+      align-items: center;
+  }
+  
+  .card:hover {
+      cursor: pointer;
+  }
+  
+  img {
+      width: 8vw;
+      height: 6vw;
+  }
+  
+  p {
+      font-size: xx-small;
+  }
+  
+  #card-pedido {
+      width: 13.7vw;
+      background-color: red;
+      height: 10vw;
+      overflow: scroll;
+  }
+  
+  #pedidos {
+      width: 41.35vw;
+      max-height: 15vw;
+      overflow: hidden;
+  }
+  
+  h3,
+  #card,
+  #card-pedido {
+      padding: 0;
+      margin: 0;
+  }
+  
+  .card-valor {
+      padding: 0;
+      margin: -10;
+      text-align: right;
+      font-size: smaller;
+  }
+  
+  .input-group {
+      margin: 0.5vw;
+  }
